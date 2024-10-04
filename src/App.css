@@ -17,6 +17,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.logo.ennu:hover {
+  filter: drop-shadow(0 0 2em #e1bd62);
+}
 
 @keyframes logo-spin {
   from {

@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        "potential-weight": "src/components/PotentialWeight/render.tsx"
+        "potential-weight": "src/widgets/PotentialWeight/render.tsx"
       },
       output: {
         dir: 'output',

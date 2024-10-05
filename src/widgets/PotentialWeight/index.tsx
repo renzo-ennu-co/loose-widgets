@@ -16,7 +16,7 @@ function PotentialWeight() {
                 <div className="column items-center pt-s">
                     <div className="text-l leading-1">Your potential weight with GLP-1s:</div>
                         <div className="text-3xl whitespace-nowrap">
-                            <Span>{ potentialWeight }</Span> lbs
+                            <Span>{ potentialWeight } lbs</Span> 
                         </div>
                     </div>
                 </div>

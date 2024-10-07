@@ -1,4 +1,4 @@
-import ennuLogo from './assets/ennu-co-web-logo.webp'
+import ennuLogo from './assets/ennu-co-logo.png'
 import './App.css'
 import PotentialWeight from './widgets/PotentialWeight'
 

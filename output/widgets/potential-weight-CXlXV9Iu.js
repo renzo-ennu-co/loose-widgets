@@ -43,6 +43,9 @@ Error generating stack: `+o.message+`
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  * {
+    line-height: normal;
+  }
 `,Lm=je.div`
   border: 4px solid;
   border-radius: 0.375rem; /* rounded-md */

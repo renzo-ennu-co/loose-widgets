@@ -5,6 +5,9 @@ const Container = styled.div`
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  * {
+    line-height: normal;
+  }
 `;
 
 const PotentialWeightContainer = styled.div`

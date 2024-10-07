@@ -16,6 +16,6 @@ export default defineConfig({
     },
     //outDir: 'dist',  // Output directory for the static website
     emptyOutDir: true,  // Clean output folder before each build
-    watch: {}
+    //watch: {}
   },     
 })

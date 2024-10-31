@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -22,17 +25,28 @@ const ContentWrapper = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 0.5rem;
+  @media (min-width: 600px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 `;
 
 const Title = styled.div`
-  font-size: 16px;
+  text-align: center;
+  font-size: 14px;
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 const PotentialWeightValue = styled.div`
-  font-size: 40px;
+  font-size: 32px;
+  @media (min-width: 600px) {
+    font-size: 40px;
+  }
 `
 
 const BoldText = styled.span`
@@ -44,7 +58,7 @@ const SliderContainer = styled.div`
   max-width: 250px;
   margin-bottom: 10px;
 `;
-/* 
+/*
 const Slider = styled.input`
   width: 100%;
 `; */
@@ -129,11 +143,17 @@ const CurrentWeightContainer = styled.div`
 `;
 
 const Label = styled.label`
-  font-size: 23px;
+  font-size: 16px;
   margin-right: 10px;
+  @media (min-width: 600px) {
+    font-size: 20px;
+  }
 `;
 
 const NumberInput = styled.input`
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
   text-align: center;
   font-size: 18px;
   padding-top: 10px;
@@ -142,6 +162,10 @@ const NumberInput = styled.input`
   border-bottom-width: 4px;
   border-radius: 2px;
   background-color: transparent;
+  width: 100px;
+  @media (min-width: 600px) {
+    width: 120px;
+  }
 `;
 
 export {

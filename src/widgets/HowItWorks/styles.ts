@@ -5,13 +5,13 @@ export const Container = styled.div`
   font-weight: 200;
   font-style: normal;
   font-size: 14px;
+  width: 100%;
+  @media (min-width: 600px) {
+    width: 500px;
+  }
 `;
 
 export const AccordionItemContainer = styled.div`
-  width: 300px;
-  @media (min-width: 600px) {
-    width: 560px;
-  }
   margin-bottom: 30px;
 `;
 
@@ -30,15 +30,16 @@ export const NumberAndTitleContainer = styled.div`
 `;
 
 export const NumberContainer = styled.div<{
-  isActive: boolean
+  isOpen: boolean
 }>`
   display: flex;
   align-items: center;
   justify-content: center;
   width: 25px;
+  min-width: 25px;
   height: 25px;
-  background-color: ${ props => props.isActive ? '#FDD17C' : '#F1F2F6'};
-  border: 1px solid ${ props => props.isActive ? '#CFA90F' : '#0000001a'};
+  background-color: ${ props => props.isOpen ? '#FDD17C' : '#F1F2F6'};
+  border: 1px solid ${ props => props.isOpen ? '#CFA90F' : '#0000001a'};
   border-radius: 9999px;
   margin-right: 10px;
 `;
@@ -50,6 +51,7 @@ export const NumberSpan = styled.span`
 
 export const TitleSpan = styled.span`
   font-weight: 600;
+  text-align: left;
 `;
 
 export const ArrowDiv = styled.div`

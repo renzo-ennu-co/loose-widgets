@@ -7,7 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        "potential-weight": "src/widgets/PotentialWeight/render.tsx"
+        "potential-weight": "src/widgets/PotentialWeight/render.tsx",
+        "how-it-works": "src/widgets/HowItWorks/render.tsx"
       },
       output: {
         dir: 'output',
@@ -17,5 +18,5 @@ export default defineConfig({
     //outDir: 'dist',  // Output directory for the static website
     emptyOutDir: true,  // Clean output folder before each build
     //watch: {}
-  },     
+  },
 })

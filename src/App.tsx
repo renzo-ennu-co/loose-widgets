@@ -1,6 +1,7 @@
 import ennuLogo from './assets/ennu-co-logo.png'
 import './App.css'
 import PotentialWeight from './widgets/PotentialWeight'
+import HowItWorks from './widgets/HowItWorks'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <div className="div">
         <h2>Potential Weight Widget</h2>
         <PotentialWeight/>
+        <h2>How It Works Widget</h2>
+        <HowItWorks/>
       </div>
     </>
   )

@@ -6,13 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:widgets": "vite build --config vite.config.widgets.ts", 
+    "build:widgets": "vite build --config vite.config.widgets.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {

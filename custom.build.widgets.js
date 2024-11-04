@@ -24,6 +24,8 @@ async function buildWidgets() {
             dir: path.resolve(__dirname, 'output/widgets'),
             entryFileNames: `${widget.name}-[hash].js`,
             inlineDynamicImports: true,  // Bundle all imports in a single file
+            format: 'umd',
+            name: widget.name
           },
         },
         emptyOutDir: false,  // Prevent clearing the output folder between builds

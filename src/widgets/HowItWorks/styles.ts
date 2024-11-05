@@ -30,7 +30,7 @@ export const NumberAndTitleContainer = styled.div`
 `;
 
 export const NumberContainer = styled.div<{
-  isOpen: boolean
+  $isOpen: boolean
 }>`
   display: flex;
   align-items: center;
@@ -38,8 +38,8 @@ export const NumberContainer = styled.div<{
   width: 25px;
   min-width: 25px;
   height: 25px;
-  background-color: ${ props => props.isOpen ? '#FDD17C' : '#F1F2F6'};
-  border: 1px solid ${ props => props.isOpen ? '#CFA90F' : '#0000001a'};
+  background-color: ${ props => props.$isOpen ? '#FDD17C' : '#F1F2F6'};
+  border: 1px solid ${ props => props.$isOpen ? '#CFA90F' : '#0000001a'};
   border-radius: 9999px;
   margin-right: 10px;
 `;

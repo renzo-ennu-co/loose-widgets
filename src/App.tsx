@@ -2,6 +2,7 @@ import ennuLogo from './assets/ennu-co-logo.png'
 import './App.css'
 import PotentialWeight from './widgets/PotentialWeight'
 import HowItWorks from './widgets/HowItWorks'
+import PreApprovedMainTitle from './widgets/PreApprovedMainTitle'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <PotentialWeight/>
         <h2>How It Works Widget</h2>
         <HowItWorks/>
+        <h2>Pre Approved Main Title</h2>
+        <PreApprovedMainTitle name='Renzo'/>
       </div>
     </>
   )

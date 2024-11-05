@@ -1,4 +1,5 @@
-import { Container, H1, UnderlinedTextSpan } from "./styles";
+import MyComponentWithDynamicScale from "./MyComponentWithDynamicScale";
+import { H1, TextSpan, UnderlinedTextSpan } from "./styles";
 
 const getTitle = (name: string | undefined) => {
   return name ? <>{name}, you are <UnderlinedTextSpan>pre-approved</UnderlinedTextSpan> for a personalized weight loss program!</> :
@@ -13,9 +14,11 @@ const PreApprovedMainTitle = ({ name }: Props) => {
   const title = getTitle(name);
 
   return (
-    <Container>
-      <H1>{title}</H1>
-    </Container>
+    <MyComponentWithDynamicScale>
+      <H1>
+        <TextSpan>{title}</TextSpan>
+      </H1>
+    </MyComponentWithDynamicScale>
   )
 }
 

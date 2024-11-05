@@ -14,7 +14,7 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }: {
     <AccordionItemContainer>
       <AccordionHeaderContainer onClick={onClick}>
         <NumberAndTitleContainer>
-          <NumberContainer isOpen={ isOpen }>
+          <NumberContainer $isOpen={ isOpen }>
             <NumberSpan>{number}</NumberSpan>
           </NumberContainer>
           <TitleSpan>{title}</TitleSpan>

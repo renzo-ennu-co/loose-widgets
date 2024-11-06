@@ -5,7 +5,7 @@ interface Props {
   value: string
 }
 
-const InfoKeyValueCard = ({ _key, value }: Props) => {
+const InfoKeyValueCard = ({ _key = 'key', value = 'value' }: Props) => {
   return (
     <Container>
       <Wrapper>

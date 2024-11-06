@@ -3,6 +3,14 @@ import './App.css'
 import PotentialWeight from './widgets/PotentialWeight'
 import HowItWorks from './widgets/HowItWorks'
 import PreApprovedMainTitle from './widgets/PreApprovedMainTitle'
+import styled from 'styled-components'
+
+const PreApprovedMainTitleContainer = styled.div`
+  width: 280px;
+  @media (min-width: 600px) {
+    width: 700px;
+  }
+`;
 
 function App() {
   return (
@@ -25,7 +33,9 @@ function App() {
         <h2>How It Works Widget</h2>
         <HowItWorks/>
         <h2>Pre Approved Main Title</h2>
-        <PreApprovedMainTitle name='Renzo' widthForDesktop={700} widthForMobile={280} fontAdjustment={55}/>
+        <PreApprovedMainTitleContainer>
+          <PreApprovedMainTitle name='Renzo' widthForDesktop={700} widthForMobile={280} fontAdjustment={55}/>
+        </PreApprovedMainTitleContainer>
       </div>
     </>
   )

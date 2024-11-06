@@ -5,6 +5,7 @@ import HowItWorks from './widgets/HowItWorks'
 import PreApprovedMainTitle from './widgets/PreApprovedMainTitle'
 import styled from 'styled-components'
 import InfoKeyValueCard from './widgets/InfoKeyValueCard'
+import OfferExpiresOn from './widgets/OfferExpiresOn'
 
 const HowItWorksContainer = styled.div`
   display: flex;
@@ -47,6 +48,10 @@ function App() {
         <h2>Info Key Value Card</h2>
         <HowItWorksContainer>
           <InfoKeyValueCard _key={'Sex'} value={'Female'}/>
+        </HowItWorksContainer>
+        <h2>Offer Expires On</h2>
+        <HowItWorksContainer>
+          <OfferExpiresOn />
         </HowItWorksContainer>
       </div>
     </>

@@ -14,6 +14,7 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   width: 100px;
   padding: 10px 10px;
+  text-align: center;
 `;
 
 export const TextSpan = styled.span`

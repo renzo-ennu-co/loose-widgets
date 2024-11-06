@@ -11,6 +11,7 @@ const widgets = [
   { name: 'how-it-works', entry: 'src/widgets/HowItWorks/render.tsx' },
   { name: 'pre-approved-main-title', entry: 'src/widgets/PreApprovedMainTitle/render.tsx' },
   { name: 'info-key-value-card', entry: 'src/widgets/InfoKeyValueCard/render.tsx' },
+  { name: 'offer-expires-on', entry: 'src/widgets/OfferExpiresOn/render.tsx' },
   // Add more widgets as needed
 ];
 

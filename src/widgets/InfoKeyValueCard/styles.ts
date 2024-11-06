@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 120px;
+  width: 100px;
   padding: 10px 10px;
 `;
 

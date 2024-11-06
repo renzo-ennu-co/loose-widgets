@@ -9,7 +9,7 @@ const InfoKeyValueCard = ({ _key = 'key', value = 'value' }: Props) => {
   return (
     <Container>
       <Wrapper>
-        <TextSpan>{_key} : {value}</TextSpan>
+        <TextSpan>{_key}: {value}</TextSpan>
       </Wrapper>
     </Container>
   )

@@ -10,6 +10,7 @@ const widgets = [
   { name: 'potential-weight', entry: 'src/widgets/PotentialWeight/render.tsx' },
   { name: 'how-it-works', entry: 'src/widgets/HowItWorks/render.tsx' },
   { name: 'pre-approved-main-title', entry: 'src/widgets/PreApprovedMainTitle/render.tsx' },
+  { name: 'info-key-value-card', entry: 'src/widgets/InfoKeyValueCard/render.tsx' },
   // Add more widgets as needed
 ];
 

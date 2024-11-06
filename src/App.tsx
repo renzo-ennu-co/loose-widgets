@@ -5,6 +5,11 @@ import HowItWorks from './widgets/HowItWorks'
 import PreApprovedMainTitle from './widgets/PreApprovedMainTitle'
 import styled from 'styled-components'
 
+const HowItWorksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const PreApprovedMainTitleContainer = styled.div`
   width: 280px;
   @media (min-width: 600px) {
@@ -31,7 +36,9 @@ function App() {
         <h2>Potential Weight Widget</h2>
         <PotentialWeight/>
         <h2>How It Works Widget</h2>
-        <HowItWorks/>
+        <HowItWorksContainer>
+          <HowItWorks/>
+        </HowItWorksContainer>
         <h2>Pre Approved Main Title</h2>
         <PreApprovedMainTitleContainer>
           <PreApprovedMainTitle name='Renzo' widthForDesktop={700} widthForMobile={280} fontAdjustment={55}/>

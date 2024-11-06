@@ -25,7 +25,7 @@ function App() {
         <h2>How It Works Widget</h2>
         <HowItWorks/>
         <h2>Pre Approved Main Title</h2>
-        <PreApprovedMainTitle name='Renzo'/>
+        <PreApprovedMainTitle name='Renzo' widthForDesktop={700} widthForMobile={280} fontAdjustment={55}/>
       </div>
     </>
   )

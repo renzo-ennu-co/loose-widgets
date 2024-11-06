@@ -20,7 +20,7 @@ const PreApprovedMainTitle = ({ name, widthForDesktop, widthForMobile, fontAdjus
 
   useEffect(() => {
     const updateScale = () => {
-      const computedWidth = window.outerWidth;
+      const computedWidth = document.body.clientWidth;
       //const scale = Math.min(1, width / 1200); // Dynamic scale calculation
       //console.log(computedWidth);
       let computedScale: number;

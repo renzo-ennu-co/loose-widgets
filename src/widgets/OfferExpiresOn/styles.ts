@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   font-family: "Poppins", serif;
-  font-weight: 400;
+  font-weight: 200;
   //border: 1px solid #DABE70;
   //border-radius: 13.5px;
   //background-color: #FBF8F0;
@@ -50,6 +50,7 @@ export const TimeBoxContainer = styled.div`
 `;
 
 export const TimeBoxSpan = styled.span`
+  font-weight: 400;
 `;
 
 export const DimensionSpan = styled.span`

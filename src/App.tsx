@@ -4,6 +4,7 @@ import PotentialWeight from './widgets/PotentialWeight'
 import HowItWorks from './widgets/HowItWorks'
 import PreApprovedMainTitle from './widgets/PreApprovedMainTitle'
 import styled from 'styled-components'
+import InfoKeyValueCard from './widgets/InfoKeyValueCard'
 
 const HowItWorksContainer = styled.div`
   display: flex;
@@ -43,6 +44,10 @@ function App() {
         <PreApprovedMainTitleContainer>
           <PreApprovedMainTitle name='Renzo' widthForDesktop={700} widthForMobile={280} fontAdjustment={55}/>
         </PreApprovedMainTitleContainer>
+        <h2>Info Key Value Card</h2>
+        <HowItWorksContainer>
+          <InfoKeyValueCard _key={'Sex'} value={'Female'}/>
+        </HowItWorksContainer>
       </div>
     </>
   )

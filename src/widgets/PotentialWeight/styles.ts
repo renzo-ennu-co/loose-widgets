@@ -14,9 +14,10 @@ const Container = styled.div`
 `;
 
 const PotentialWeightContainer = styled.div`
-  border: 4px solid;
+  border: 2px solid #C8A945;
   border-radius: 0.375rem; /* rounded-md */
   margin-bottom: 20px;
+  background-color: #E8C966;
 `;
 
 const ContentWrapper = styled.div`

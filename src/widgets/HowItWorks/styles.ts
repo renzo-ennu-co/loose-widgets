@@ -38,8 +38,8 @@ export const NumberContainer = styled.div<{
   width: 25px;
   min-width: 25px;
   height: 25px;
-  background-color: ${ props => props.$isOpen ? '#FDD17C' : '#F1F2F6'};
-  border: 1px solid ${ props => props.$isOpen ? '#CFA90F' : '#0000001a'};
+  background-color: ${ props => props.$isOpen ? '#E8C966' : '#F1F2F6'};
+  border: 1px solid ${ props => props.$isOpen ? '#C8A945' : '#0000001a'};
   border-radius: 9999px;
   margin-right: 10px;
 `;
@@ -55,6 +55,7 @@ export const TitleSpan = styled.span`
 `;
 
 export const ArrowDiv = styled.div`
+  color: #C8A945;
   font-size: 21px;
 `;
 

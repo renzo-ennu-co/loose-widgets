@@ -1,7 +1,8 @@
 import { useState } from "react"
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import { IoArrowUpCircleOutline, IoArrowDownCircleOutline } from "react-icons/io5";
+
 import data from "./data"
-import { AccordionContent, AccordionHeaderContainer, AccordionItemContainer, ArrowDiv, Container, NumberAndTitleContainer, NumberContainer, NumberSpan, TitleSpan } from "./styles";
+import { AccordionContent, AccordionHeaderContainer, AccordionItemContainer, ArrowDiv, Container, NumberAndTitleContainer, TitleSpan } from "./styles";
 
 const AccordionItem = ({ number, title, content, isOpen, onClick }: {
   number: number,
@@ -14,12 +15,12 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }: {
     <AccordionItemContainer>
       <AccordionHeaderContainer onClick={onClick}>
         <NumberAndTitleContainer>
-          <NumberContainer $isOpen={ isOpen }>
+{/*           <NumberContainer $isOpen={ isOpen }>
             <NumberSpan>{number}</NumberSpan>
-          </NumberContainer>
-          <TitleSpan>{title}</TitleSpan>
+          </NumberContainer> */}
+          <TitleSpan>{number}. {title}</TitleSpan>
         </NumberAndTitleContainer>
-        <ArrowDiv>{isOpen ? <MdKeyboardArrowUp/> : <MdKeyboardArrowDown />}</ArrowDiv>
+        <ArrowDiv>{isOpen ? <IoArrowUpCircleOutline/> : <IoArrowDownCircleOutline />}</ArrowDiv>
       </AccordionHeaderContainer>
         {isOpen && <AccordionContent>{content}</AccordionContent>}
     </AccordionItemContainer>

@@ -1,28 +1,26 @@
-import { AccordionContentBold } from "./styles";
-
 const data = [
   {
-    title: 'Take the quiz',
+    title: 'Take Our Free Online Health Survey',
     content: <>
-      <AccordionContentBold>Start with our free, 5-minute quiz</AccordionContentBold> to see if you qualify for a Semaglutide prescription. Find out your potential baseline weight and what would that mean for your health.'
+      This specially designed survey was created by medical experts to provide an assessment of your health based on self-reported symptoms.
     </>,
   },
   {
-    title: 'Measure your baseline',
+    title: 'Comprehensive Health Assessment',
     content: <>
-      Get a certified phlebotomist to conduct a <AccordionContentBold>comprehensive blood test quickly and conveniently at your home or office</AccordionContentBold>, included in the price. Unlike other Telehealth companies, our blood test measures 50+ biomarkers to evaluate all areas of health, which is not possible with a fingerprick or a cheek swab.
+      Includes a thorough report on your medical and family history, a 40+ biomarker analysis, an advanced lab review, and a personalized health action plan tailored to your goals. Your assessment also features two in-office visits, a 60-minute one-on-one health review, a physical exam, and a printed copy of your personalized health journey.
     </>,
   },
   {
-    title: 'Start your transformation',
+    title: 'Transform Your Life',
     content: <>
-      <AccordionContentBold>Meet with a board-certified clinician online to discuss your test results.</AccordionContentBold> Together, you'll develop a personalized health plan that's effective, enjoyable, and easy to follow. Your clinician will explain your body chemistry, including why fad diets and gym memberships failed to help you lose weight in the past. They will clarify your metabolic type and how you burn fat, helping to adjust your body's natural weight baseline. This plan allows you to integrate your favorite meals and manage your activity level in a way that suits you, empowering you to lose the stubborn weight for good.
+      Meet one-on-one with a trusted medical professional for an initial health consultation. Our dedicated specialists bring expertise and care to guide you in tracking your physical and mental health progress. With their support, you'll gain a clear understanding of your journey towards achieving lasting wellness goals.
     </>,
   },
   {
-    title: 'Free re-testing, health coaches and more…',
+    title: 'We have the best plan for you',
     content: <>
-      Get your medicine and supplements delivered straight to your door. As a member, get re-tested every 3 months at no additional charge to track your progress and optimize your plan to feel even better. Chat or email with your dedicated health coach to answer your questions based on your specific biochemistry.
+      Ennu's medically supervised program redefines aging and wellness. While choosing a healthier life is your decision, we make the path safe and straightforward. During your first consultation, your dedicated specialist will review personalized options based on your health history, symptoms, and lab results, empowering you toward lasting wellness.
     </>,
   }
 ];

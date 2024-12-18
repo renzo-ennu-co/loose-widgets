@@ -25,7 +25,7 @@ export const FormattedDateContainer = styled.div`
 
 export const FormattedDateSpan = styled.span`
   //color: #DABE70;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 export const TimeBoxesContainer = styled.div`
@@ -47,14 +47,16 @@ export const TimeBoxContainer = styled.div`
   background-color: #FBF8F0;
   width: 50px;
   height: 50px;
+  font-size: 16px;
 `;
 
 export const TimeBoxSpan = styled.span`
-  font-weight: 400;
+  font-weight: 600;
 `;
 
 export const DimensionSpan = styled.span`
   font-size: 12px;
+  font-weight: 400;
 `;
 
 export const TimeBoxesSeparator = styled.span`
